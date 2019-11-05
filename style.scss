@@ -1,14 +1,10 @@
 $height: 100%;
 $width: 100%;
 
-h1,h2,h3,h4,h5,h6,p,span {
+h1,h2,h3,h4,h5,h6,p,span,a {
   color: azure;
 }
-body{
-  background-color: #121287;
-  height: $height;
-  width: $width;
-}
+
 .cv {
   background-color: red;
   height: $height;
@@ -31,6 +27,9 @@ body{
 .selfie {
   width: 300px;
   height: 150px;
+}
+.socialMediaLinks{
+  color: azure;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap

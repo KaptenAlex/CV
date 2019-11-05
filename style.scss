@@ -1,17 +1,15 @@
-$width: 500px;
-$height: 250px;
+$height: 100%;
+$width: 100%;
 
-.container_1{
-  height: $height;
+.cv{
   background-color: red;
-}
-.container_2{
   height: $height;
+}
+.about_me{
   background-color: yellow;
-
-}
-.container_3{
   height: $height;
+}
+.portfolio{
   background-color: blue;
-
+  height: $height;
 }

@@ -1,16 +1,16 @@
-.container_1 {
-  height: 250px;
+.cv {
   background-color: red;
+  height: 100%;
 }
 
-.container_2 {
-  height: 250px;
+.about_me {
   background-color: yellow;
+  height: 100%;
 }
 
-.container_3 {
-  height: 250px;
+.portfolio {
   background-color: blue;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

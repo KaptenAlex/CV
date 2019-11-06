@@ -1,5 +1,33 @@
-h1, h2, h3, h4, h5, h6, p, span, a {
+h1, h2, h3, h4, h5, h6, p, span {
   color: azure;
+}
+
+.contact_info {
+  margin-bottom: 5%;
+}
+
+.links {
+  color: azure;
+}
+
+.secret {
+  opacity: 100%;
+}
+
+.links:hover {
+  color: yellow;
+}
+
+.github {
+  color: #24292e;
+}
+
+.linkedIn {
+  color: #0077b5;
+}
+
+.mail {
+  color: #eb9c12;
 }
 
 .cv {
@@ -24,10 +52,6 @@ h1, h2, h3, h4, h5, h6, p, span, a {
 .selfie {
   width: 300px;
   height: 150px;
-}
-
-.github, .linkedIn, .mail {
-  color: azure;
 }
 
 /*# sourceMappingURL=style.css.map */

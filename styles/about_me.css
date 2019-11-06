@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, p, span {
-  color: azure;
+  color: red;
 }
 
 .about_me div {
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .links {
-  color: azure;
+  color: red;
   font-size: xx-large;
 }
 
@@ -61,4 +61,4 @@ h1, h2, h3, h4, h5, h6, p, span {
   height: 150px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=about_me.css.map */

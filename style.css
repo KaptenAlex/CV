@@ -2,8 +2,12 @@ h1, h2, h3, h4, h5, h6, p, span {
   color: azure;
 }
 
+.about_me div {
+  margin-bottom: 5%;
+}
+
 .contact_info {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .links {

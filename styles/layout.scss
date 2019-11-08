@@ -1,9 +1,19 @@
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+//Custom bootstrap theming.
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #1b36d1;
+  background-color: #d1b91b;
+}
+a {
+  color:#1b36d1
+}
+/*
 .about_me{
   display: none;
 }
+*/
 .cv{
   display: none;
 }

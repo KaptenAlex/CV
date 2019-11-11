@@ -9665,4 +9665,8 @@ a {
   color: #1b36d1;
 }
 
+.card-title, .card-text {
+  color: black;
+}
+
 /*# sourceMappingURL=theming.css.map */

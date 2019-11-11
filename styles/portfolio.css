@@ -1,6 +1,14 @@
 .portfolio {
-  background-color: #0f6927;
+  background-color: #121287;
   display: none;
+}
+
+.portfolio .container {
+  background-color: #0f6927;
+  /*Might not need*/
+  justify-content: center;
+  /*Might not need*/
+  text-align: center;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

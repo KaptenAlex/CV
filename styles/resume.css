@@ -1,6 +1,11 @@
 .resume {
-  background-color: green;
-  display: none;
+  background-color: #121287;
+  display: block;
+}
+
+.resume .container {
+  background-color: black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=resume.css.map */

@@ -9672,6 +9672,8 @@ a {
 
 .card {
   width: 18rem;
+  margin: 0 auto;
+  margin-bottom: 10%;
 }
 
 /*# sourceMappingURL=theming.css.map */

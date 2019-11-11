@@ -9665,7 +9665,8 @@ a {
   color: #1b36d1;
 }
 
-.card-title, .card-text {
+.card-text,
+.card-title {
   color: black;
 }
 

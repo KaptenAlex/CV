@@ -9665,12 +9665,8 @@ a {
   color: #1b36d1;
 }
 
-/*
-.about_me{
-  display: none;
-}
-*/
-.cv {
+.resume {
+  background-color: pink;
   display: none;
 }
 

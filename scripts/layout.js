@@ -5,7 +5,6 @@ $(function() {
   //Function to switch active state on navbar links.
   $(".nav-link").click(function() {
     let currentObject = $(this);
-    console.log(currentObject.attr("id"));
     $(".nav-link").attr("class", "nav-link");
     currentObject.attr("class", "nav-link active");
     if(currentObject.attr("id") == "resumeLink"){

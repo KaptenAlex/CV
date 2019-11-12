@@ -2,17 +2,13 @@ h1, h2, h3, h4, h5, h6, p, span {
   color: azure;
 }
 
-.about_me div {
-  margin-bottom: 5%;
-}
-
 .contact_info {
   margin-top: 5%;
 }
 
 .links {
   color: azure;
-  font-size: xx-large;
+  font-size: 1.5rem;
 }
 
 .secretText {

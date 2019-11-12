@@ -5,9 +5,6 @@ $fontColor: azure;
 h1,h2,h3,h4,h5,h6,p,span {
   color: $fontColor;
 }
-.about_me div{
-  margin-bottom: 5%;
-}
 
 .contact_info{
   margin-top: 5%;
@@ -15,7 +12,7 @@ h1,h2,h3,h4,h5,h6,p,span {
 
 .links{
   color: $fontColor;
-  font-size: xx-large;
+  font-size: 1.5rem;
 }
 
 .secretText{
@@ -51,13 +48,3 @@ h1,h2,h3,h4,h5,h6,p,span {
   width: 300px;
   height: 150px;
 }
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}

@@ -9655,6 +9655,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+p {
+  font-size: 22px;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #1b36d1;

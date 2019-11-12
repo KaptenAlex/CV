@@ -9675,6 +9675,7 @@ a {
 }
 
 .card {
+  border: solid 2px white;
   width: 18em;
   margin: 0 auto 10%;
   margin-top: 10%;

@@ -9655,18 +9655,20 @@ h3 {
     border-color: #dee2e6;
   }
 }
-p {
+h1, h2, h3, h4, h5, h6, p, li, a {
+  line-height: 1.5;
   font-size: 1.5em;
+}
+
+.display-3 {
+  line-height: 1.5;
+  font-size: 4.5em;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #1b36d1;
   background-color: #d1b91b;
-}
-
-a {
-  color: #1b36d1;
 }
 
 .card-text,

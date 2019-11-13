@@ -97,11 +97,11 @@ function swedishTranslationResumePage(){
   let eduColThirdFifth = $(".education .thirdList .fifthItem").text("Datalogi");
   let eduColThirdSixth = $(".education .thirdList .sixthItem").text("Programmering 2");
   let eduColThirdSeventh = $(".education .thirdList .seventhItem").text("Teknik - specialisering");
-  let eduColThirdEigth = $(".education .thirdList .eigthItem").text("Examensarbete: A beginners guide to AngularJS");
+  let eduColThirdEigth = $(".education .thirdList .eigthItem").text("Examensarbete: En nybörjares guide till AngularJS");
   //Second Column
   let expColTitle = $(".experience .exp").text("Erfarenhet");
   let expColFirstRole = $(".experience .firstRole").text("Gruppera AB, Webbutvecklare");
-  let expColInternWorked = $(".experience .intern").text("Praktik, jobbat med:");
+  let expColInternWorked = $(".experience .intern").text("Praktikant, jobbat med:");
   let expColSecondRole = $(".experience .secondRole").text("Amisource AB, Webbutvecklare");
   let expColThirdRole = $(".experience .thirdRole").text("Ica Nära Humlegården, Kassör");
   let expColWorked = $(".experience .worked").text("Jobbat med:");

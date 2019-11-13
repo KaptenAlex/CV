@@ -80,6 +80,7 @@ function swedishTranslationAboutMePage() {
 }
 
 function swedishTranslationResumePage(){
+  //First Column
   let eduColTitle = $(".education .edu").text("Utbildning");
   let eduColFirstRole = $(".education .firstRole").text("Nackademin, Fullstack webbutvecklare");
   let eduColFirstCompleted = $(".education .firstCompleted").text("Avklarade kurser:");
@@ -97,6 +98,17 @@ function swedishTranslationResumePage(){
   let eduColThirdSixth = $(".education .thirdList .sixthItem").text("Programmering 2");
   let eduColThirdSeventh = $(".education .thirdList .seventhItem").text("Teknik - specialisering");
   let eduColThirdEigth = $(".education .thirdList .eigthItem").text("Examensarbete: A beginners guide to AngularJS");
+  //Second Column
+  let expColTitle = $(".experience .exp").text("Erfarenhet");
+  let expColFirstRole = $(".experience .firstRole").text("Gruppera AB, Webbutvecklare");
+  let expColInternWorked = $(".experience .intern").text("Praktik, jobbat med:");
+  let expColSecondRole = $(".experience .secondRole").text("Amisource AB, Webbutvecklare");
+  let expColThirdRole = $(".experience .thirdRole").text("Ica Nära Humlegården, Kassör");
+  let expColWorked = $(".experience .worked").text("Jobbat med:");
+  let expColThirdFirst = $(".experience .thirdList .firstItem").text("Huvudkassör");
+  let expColThirdSecond = $(".experience .thirdList .secondItem").text("Bakansvarig");
+  let expColThirdThird = $(".experience .thirdList .thirdItem").text("Öppnings/stängnings-ansvarig");
+  let expColThirdFourth = $(".experience .thirdList .fourthItem").text("Varumottagning");
 }
 
 function swedishTranslationPortfolioPage() {
@@ -135,6 +147,7 @@ function englishTranslationAboutMePage() {
 }
 
 function englishTranslationResumePage(){
+  //First Column
   let eduColTitle = $(".education .edu").text("Education");
   let eduColFirstRole = $(".education .firstRole").text("Nackademin, Fullstack web developer");
   let eduColFirstCompleted = $(".education .firstCompleted").text("Completed courses:");
@@ -154,6 +167,17 @@ function englishTranslationResumePage(){
   let eduColThirdSixth = $(".education .thirdList .sixthItem").text("Programming 2");
   let eduColThirdSeventh = $(".education .thirdList .seventhItem").text("Engineering specialization");
   let eduColThirdEigth = $(".education .thirdList .eigthItem").text("Master thesis: A beginners guide to AngularJS");
+  //Second Column
+  let expColTitle = $(".experience .exp").text("Experience");
+  let expColFirstRole = $(".experience .firstRole").text("Gruppera AB, Web developer");
+  let expColInternWorked = $(".experience .intern").text("Internship, worked with:");
+  let expColSecondRole = $(".experience .secondRole").text("Amisource AB, Web developer");
+  let expColThirdRole = $(".experience .thirdRole").text("Ica Nära Humlegården, Cashier");
+  let expColWorked = $(".experience .worked").text("Worked with:");
+  let expColThirdFirst = $(".experience .thirdList .firstItem").text("Main Cashier");
+  let expColThirdSecond = $(".experience .thirdList .secondItem").text("Baked wares in the morning");
+  let expColThirdThird = $(".experience .thirdList .thirdItem").text("Opening and closing the store");
+  let expColThirdFourth = $(".experience .thirdList .fourthItem").text("Receiving goods");
 }
 
 function englishTranslationPortfolioPage() {

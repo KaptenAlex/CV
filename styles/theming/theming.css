@@ -9659,9 +9659,10 @@ h3 {
 Theming for bootstrap classes to modify looks
 and adjust them to meet WCAG demands.
  */
-h1, h2, h3, h4, h5, h6, p, li, a {
+h1, h2, h3, h4, h5, h6, p, li, a, span {
   line-height: 1.5;
   font-size: 1.5em;
+  color: azure;
 }
 
 .btn {
@@ -9693,6 +9694,10 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .card-img-top {
   height: 13em;
+}
+
+.nav-item a {
+  color: blue;
 }
 
 /*# sourceMappingURL=theming.css.map */

@@ -1,23 +1,18 @@
-h1, h2, h3, h4, h5, h6, p, span {
-  color: azure;
-}
-
 .contact_info {
   margin-top: 5%;
 }
 
 .links {
   color: azure;
-  font-size: 1.5em;
+}
+
+.links:hover {
+  color: purple;
 }
 
 .secretText {
   font-style: italic;
   display: none;
-}
-
-.links:hover {
-  color: yellow;
 }
 
 .github {
@@ -34,8 +29,6 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 .about_me {
   background-color: #121287;
-  height: 100%;
-  width: 100%;
   text-align: center;
 }
 

@@ -1,19 +1,23 @@
+$font-color: azure;
+$em-unit: 1.5em;
+$line-height: 1.5;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 /*
 Theming for bootstrap classes to modify looks
 and adjust them to meet WCAG demands.
  */
 
-h1,h2,h3,h4,h5,h6,p,li,a,{
-  line-height: 1.5;
-  font-size: 1.5em;
+h1,h2,h3,h4,h5,h6,p,li,a,span{
+  line-height: $line-height;
+  font-size: $em-unit;
+  color: $font-color
 }
 .btn{
-  font-size: 1.2em;
+  font-size: $em-unit - 0.3em;
 }
 .display-3{
-  line-height: 1.5;
-  font-size: 4.5em;
+  line-height: $line-height;
+  font-size: 3*$em-unit;
 }
 
 .nav-pills .nav-link.active,
@@ -36,4 +40,7 @@ h1,h2,h3,h4,h5,h6,p,li,a,{
 
 .card-img-top {
   height: 13em;
+}
+.nav-item a{
+  color: blue;
 }

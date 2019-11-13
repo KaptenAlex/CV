@@ -1,27 +1,18 @@
-$height: 100%;
-$width: 100%;
-$fontColor: azure;
-
-h1,h2,h3,h4,h5,h6,p,span {
-  color: $fontColor;
-}
-
 .contact_info{
   margin-top: 5%;
 }
 
 .links{
-  color: $fontColor;
-  font-size: 1.5em;
+  color: azure;
+}
+
+.links:hover{
+  color:purple;
 }
 
 .secretText{
  font-style: italic;
  display: none;
-}
-
-.links:hover{
-  color:yellow;
 }
 
 .github{
@@ -38,8 +29,6 @@ h1,h2,h3,h4,h5,h6,p,span {
 
 .about_me {
   background-color: #121287;
-  height: $height;
-  width: $width;
   text-align: center;
 }
 

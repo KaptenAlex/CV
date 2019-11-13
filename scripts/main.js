@@ -1,6 +1,11 @@
 $(function() {
   localStorage.getItem("language");
-  console.log("Language loaded: " + localStorage.getItem("language"));
+  if (localStorage.getItem("language") == "English") {
+    console.log("Language loaded: English");
+  }
+  else if (localStorage.getItem("language") == "Swedish") {
+    console.log("Language loaded: Swedish");
+  }
   /*Variables*/
   let portfolioDiv = $("#portfolio");
   let aboutMeDiv = $("#about_me");
@@ -13,27 +18,25 @@ $(function() {
     $(".nav-link").removeClass("active");
     currentObject.addClass("active");
 
-    if(currentObject.attr("id") == "resumeLink"){
+    if (currentObject.attr("id") == "resumeLink") {
       resumeDiv.attr("style", "display:block");
       aboutMeDiv.attr("style", "display:none");
       portfolioDiv.attr("style", "display:none;");
-    }
-    else if (currentObject.attr("id") == "about_meLink") {
+    } else if (currentObject.attr("id") == "about_meLink") {
       aboutMeDiv.attr("style", "display:block");
       resumeDiv.attr("style", "display:none");
       portfolioDiv.attr("style", "display:none;");
-    }
-    else if (currentObject.attr("id") == "portfolioLink") {
+    } else if (currentObject.attr("id") == "portfolioLink") {
       portfolioDiv.attr("style", "display:block;");
       aboutMeDiv.attr("style", "display:none");
       resumeDiv.attr("style", "display:none");
     }
   });
-  englishBtn.on("click", function(event){
+  englishBtn.on("click", function(event) {
     console.log("Language loaded: English");
     localStorage.setItem("language", "English");
   });
-  swedishBtn.on("click", function(event){
+  swedishBtn.on("click", function(event) {
     console.log("Language choosen: Swedish");
     localStorage.setItem("language", "Swedish");
   });

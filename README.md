@@ -1,2 +1,2 @@
 # CV
-A responsive site to keep my CV.
+A responsive site to keep my CV and portfolio.

@@ -80,23 +80,23 @@ function swedishTranslationAboutMePage() {
 }
 
 function swedishTranslationResumePage(){
-  let eduColTitle = $(".edu").text("Utbildning");
-  let eduColFirstRole = $(".firstRole").text("Nackademin, Fullstack webbutvecklare");
-  let eduColFirstCompleted = $(".firstCompleted").text("Avklarade kurser:");
-  let eduColLIA = $(".lia").text("Avklarade kurser innan första LIAn:");
-  let eduColSecondFirst = $(".secondList .firstItem").text("Programming i backend 1");
-  let eduColSecondSecond = $(".secondList .secondItem").text("Webbutveckling med PHP");
-  let eduColSecondThird = $(".secondList .thirdItem").text("Webbutveckling i CMS");
-  let eduColSecondRole = $(".secondRole").text("Östra Gymnasiet, Inriktning informationsteknik, utgång mjukvarudesign");
-  let eduColSecondCompleted = $(".secondCompleted").text("Avklarade kurser:");
-  let eduColThirdFirst = $(".thirdList .firstItem").text("Datalagring");
-  let eduColThirdSecond = $(".thirdList .secondItem").text("Gränssnittsdesign");
-  let eduColThirdThird = $(".thirdList .thirdItem").text("Gymnasieingenjören i praktiken");
-  let eduColThirdFourth = $(".thirdList .fourthItem").text("Mjukvarudesign");
-  let eduColThirdFifth = $(".thirdList .fifthItem").text("Datalogi");
-  let eduColThirdSixth = $(".thirdList .sixthItem").text("Programmering 2");
-  let eduColThirdSeventh = $(".thirdList .seventhItem").text("Teknik - specialisering");
-  let eduColThirdEigth = $(".thirdList .eigthItem").text("Examensarbete: A beginners guide to AngularJS");
+  let eduColTitle = $(".education .edu").text("Utbildning");
+  let eduColFirstRole = $(".education .firstRole").text("Nackademin, Fullstack webbutvecklare");
+  let eduColFirstCompleted = $(".education .firstCompleted").text("Avklarade kurser:");
+  let eduColLIA = $(".education .lia").text("Avklarade kurser innan första LIAn:");
+  let eduColSecondFirst = $(".education .secondList .firstItem").text("Programming i backend 1");
+  let eduColSecondSecond = $(".education .secondList .secondItem").text("Webbutveckling med PHP");
+  let eduColSecondThird = $(".education .secondList .thirdItem").text("Webbutveckling i CMS");
+  let eduColSecondRole = $(".education .secondRole").text("Östra Gymnasiet, Inriktning informationsteknik, utgång mjukvarudesign");
+  let eduColSecondCompleted = $(".education .secondCompleted").text("Avklarade kurser:");
+  let eduColThirdFirst = $(".education .thirdList .firstItem").text("Datalagring");
+  let eduColThirdSecond = $(".education .thirdList .secondItem").text("Gränssnittsdesign");
+  let eduColThirdThird = $(".education .thirdList .thirdItem").text("Gymnasieingenjören i praktiken");
+  let eduColThirdFourth = $(".education .thirdList .fourthItem").text("Mjukvarudesign");
+  let eduColThirdFifth = $(".education .thirdList .fifthItem").text("Datalogi");
+  let eduColThirdSixth = $(".education .thirdList .sixthItem").text("Programmering 2");
+  let eduColThirdSeventh = $(".education .thirdList .seventhItem").text("Teknik - specialisering");
+  let eduColThirdEigth = $(".education .thirdList .eigthItem").text("Examensarbete: A beginners guide to AngularJS");
 }
 
 function swedishTranslationPortfolioPage() {
@@ -135,25 +135,25 @@ function englishTranslationAboutMePage() {
 }
 
 function englishTranslationResumePage(){
-  let eduColTitle = $(".edu").text("Education");
-  let eduColFirstRole = $(".firstRole").text("Nackademin, Fullstack web developer");
-  let eduColFirstCompleted = $(".firstCompleted").text("Completed courses:");
-  let eduColFirstListFirstItem = $(".firstList .firstItem");
-  let eduColFirstListSecondItem = $(".firstList .secondItem");
-  let eduColLIA = $(".lia").text("Completed courses before first LIA:");
-  let eduColSecondFirst = $(".secondList .firstItem").text("Programming in backend 1");
-  let eduColSecondSecond = $(".secondList .secondItem").text("Web development with PHP");
-  let eduColSecondThird = $(".secondList .thirdItem").text("Web development in CMS");
-  let eduColSecondRole = $(".secondRole").text("Östra Gymnasiet, Information technology based on software design");
-  let eduColSecondCompleted = $(".secondCompleted").text("Completed courses:");
-  let eduColThirdFirst = $(".thirdList .firstItem").text("Data storage");
-  let eduColThirdSecond = $(".thirdList .secondItem").text("Interface design");
-  let eduColThirdThird = $(".thirdList .thirdItem").text("High school engineer in internship");
-  let eduColThirdFourth = $(".thirdList .fourthItem").text("Software design");
-  let eduColThirdFifth = $(".thirdList .fifthItem").text("Computer science");
-  let eduColThirdSixth = $(".thirdList .sixthItem").text("Programming 2");
-  let eduColThirdSeventh = $(".thirdList .seventhItem").text("Engineering specialization");
-  let eduColThirdEigth = $(".thirdList .eigthItem").text("Master thesis: A beginners guide to AngularJS");
+  let eduColTitle = $(".education .edu").text("Education");
+  let eduColFirstRole = $(".education .firstRole").text("Nackademin, Fullstack web developer");
+  let eduColFirstCompleted = $(".education .firstCompleted").text("Completed courses:");
+  let eduColFirstListFirstItem = $(".education .firstList .firstItem");
+  let eduColFirstListSecondItem = $(".education .firstList .secondItem");
+  let eduColLIA = $(".education .lia").text("Completed courses before first LIA:");
+  let eduColSecondFirst = $(".education .secondList .firstItem").text("Programming in backend 1");
+  let eduColSecondSecond = $(".education .secondList .secondItem").text("Web development with PHP");
+  let eduColSecondThird = $(".education .secondList .thirdItem").text("Web development in CMS");
+  let eduColSecondRole = $(".education .secondRole").text("Östra Gymnasiet, Information technology based on software design");
+  let eduColSecondCompleted = $(".education .secondCompleted").text("Completed courses:");
+  let eduColThirdFirst = $(".education .thirdList .firstItem").text("Data storage");
+  let eduColThirdSecond = $(".education .thirdList .secondItem").text("Interface design");
+  let eduColThirdThird = $(".education .thirdList .thirdItem").text("High school engineer in internship");
+  let eduColThirdFourth = $(".education .thirdList .fourthItem").text("Software design");
+  let eduColThirdFifth = $(".education .thirdList .fifthItem").text("Computer science");
+  let eduColThirdSixth = $(".education .thirdList .sixthItem").text("Programming 2");
+  let eduColThirdSeventh = $(".education .thirdList .seventhItem").text("Engineering specialization");
+  let eduColThirdEigth = $(".education .thirdList .eigthItem").text("Master thesis: A beginners guide to AngularJS");
 }
 
 function englishTranslationPortfolioPage() {

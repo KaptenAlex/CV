@@ -1,4 +1,9 @@
 $(function() {
+  /*
+  Loads localStorage item and
+  depending on which language was choosen showes
+  that language translation on SPA
+  */
   localStorage.getItem("language");
   if (localStorage.getItem("language") == "English") {
     console.log("Language loaded: English");
@@ -13,13 +18,16 @@ $(function() {
     swedishTranslationPortfolioPage();
     swedishTranslationResumePage();
   }
-  /*Variables*/
   let portfolioDiv = $("#portfolio");
   let aboutMeDiv = $("#about_me");
   let resumeDiv = $("#resume");
   let englishBtn = $("#english");
   let swedishBtn = $("#swedish");
-  //Function to switch active state on navbar links.
+  /*
+  Switches bootstraps active class on navbar links
+  and shows the content that the user clicked and
+  hides the all other content.
+  */
   $(".nav-link").click(function() {
     let currentObject = $(this);
     $(".nav-link").removeClass("active");
@@ -39,6 +47,11 @@ $(function() {
       resumeDiv.attr("style", "display:none");
     }
   });
+  /*
+  Listens for when the user chooses language and
+  prints out choosen answer in console and
+  set the language choosen in localStorage.
+  */
   englishBtn.on("click", function(event) {
     console.log("Language loaded: English");
     localStorage.setItem("language", "English");
@@ -55,8 +68,22 @@ $(function() {
     swedishTranslationPortfolioPage();
     swedishTranslationResumePage();
   });
+  //
+  $("#showText").mouseover(function() {
+    $(".secretText").fadeIn(1500);
+    $(".secretText").attr("style", "display:inline");
+  });
+  $("#showText").mouseleave(function() {
+    $(".secretText").fadeOut(1500);
+  });
 });
 
+//Functions for translating all content.
+/*
+If a variable has html() instead of text(),
+it's because text() doesn't support the
+<br/> element.
+*/
 //Swedish Translation functions.
 function swedishTranslationNavbar() {
   let aboutMeLink = $("#about_meLink").text("Om mig");

@@ -109,6 +109,11 @@ function swedishTranslationResumePage(){
   let expColThirdSecond = $(".experience .thirdList .secondItem").text("Bakansvarig");
   let expColThirdThird = $(".experience .thirdList .thirdItem").text("Öppnings/stängnings-ansvarig");
   let expColThirdFourth = $(".experience .thirdList .fourthItem").text("Varumottagning");
+  //Third column
+  let thirdColSkills = $(".thirdColumn .skills").text("Färdigheter");
+  let thirdColLanguages = $(".thirdColumn .languages").text("Språk");
+  let thirdColSwedish = $(".thirdColumn .swedish").text("Modersmål: Svenska");
+  let thirdColEnglish = $(".thirdColumn .english").text("Flytande tal och skrift: Engelska");
 }
 
 function swedishTranslationPortfolioPage() {
@@ -178,6 +183,11 @@ function englishTranslationResumePage(){
   let expColThirdSecond = $(".experience .thirdList .secondItem").text("Baked wares in the morning");
   let expColThirdThird = $(".experience .thirdList .thirdItem").text("Opening and closing the store");
   let expColThirdFourth = $(".experience .thirdList .fourthItem").text("Receiving goods");
+  //Third column
+  let thirdColSkills = $(".thirdColumn .skills").text("Skills");
+  let thirdColLanguages = $(".thirdColumn .languages").text("Languages");
+  let thirdColSwedish = $(".thirdColumn .swedish").text("Native language: Swedish");
+  let thirdColEnglish = $(".thirdColumn .english").text("Fluent in speech and writing: English");
 }
 
 function englishTranslationPortfolioPage() {

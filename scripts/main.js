@@ -48,10 +48,8 @@ $(function() {
 
 function swedish(){
   let alexBio = $("#alexBio").text("Mitt namn är Alexander Wilson, jag är tjugotre år och bor i Stockholm.");
-  console.log($("#alexBio").text());
 }
 
 function english(){
   let alexBio =$("#alexBio").text("My name is Alexander Wilson, I am twenty-three years old and live in Stockholm.");
-  console.log($("#alexBio").text());
 }

@@ -2,14 +2,14 @@ $(function() {
   localStorage.getItem("language");
   if (localStorage.getItem("language") == "English") {
     console.log("Language loaded: English");
-    englishTranslationAboutMePage();
     englishTranslationNavbar();
+    englishTranslationAboutMePage();
     englishTranslationPortfolioPage();
     englishTranslationResumePage();
   } else if (localStorage.getItem("language") == "Swedish") {
     console.log("Language loaded: Swedish");
-    swedishTranslationAboutMePage();
     swedishTranslationNavbar();
+    swedishTranslationAboutMePage();
     swedishTranslationPortfolioPage();
     swedishTranslationResumePage();
   }
@@ -42,16 +42,16 @@ $(function() {
   englishBtn.on("click", function(event) {
     console.log("Language loaded: English");
     localStorage.setItem("language", "English");
-    englishTranslationAboutMePage();
     englishTranslationNavbar();
+    englishTranslationAboutMePage();
     englishTranslationPortfolioPage();
     englishTranslationResumePage();
   });
   swedishBtn.on("click", function(event) {
     console.log("Language choosen: Swedish");
     localStorage.setItem("language", "Swedish");
-    swedishTranslationAboutMePage();
     swedishTranslationNavbar();
+    swedishTranslationAboutMePage();
     swedishTranslationPortfolioPage();
     swedishTranslationResumePage();
   });
@@ -118,12 +118,15 @@ function swedishTranslationResumePage(){
 
 function swedishTranslationPortfolioPage() {
   let someOfMyProjects = $(".portfolio .heading").text("Detta är några av mina projekt.");
+  //CRM card
   let crmCardText = $("#crmCard .card-text").text("Grupp skolprojekt där jag och tre andra " +
     "skapade ett kundrelationshanteringssystem för webben, skapat med jQuery, Javascript och ren CSS.");
   let crmCardBtn = $("#crmCard .btn").html("Öppna GitHub förvar<br/>(Öppnas i ett nytt fönster)");
+  //Quiz Card
   let quizCardTitle = $("#quizCard .card-title").text("Frågesport sida");
   let quizCardText = $("#quizCard .card-text").text("Ett skolprojekt där användaren får spela frågesport, använder sig mest av Javascript och ren CSS.");
   let quizCardBtn = $("#quizCard .btn").html("Öppna GitHub förvar<br/>(Öppnas i ett nytt fönster)");
+  //Runescape Card
   let osrsCardTitle = $("#osrsCard .card-title").text("Old school RuneScape miniräknare");
   let osrsCardText = $("#osrsCard .card-text").text("Mitt framtida sidoprojekt for ett spel jag verkligen tycker om att spela. Funkar just nu inte.");
   let osrsCardBtn = $("#osrsCard .btn ").html("Öppna GitHub förvar<br/>(Öppnas i ett nytt fönster)");
@@ -192,12 +195,15 @@ function englishTranslationResumePage(){
 
 function englishTranslationPortfolioPage() {
   let someOfMyProjects = $(".portfolio .heading").text("These are some of my projects.");
+  //CRM card
   let crmCardText = $("#crmCard .card-text").text("Group school project where me and 3 others created a "+
   "customer relationship management web application, made with jQuery, Javascript and pure CSS.");
   let crmCardBtn = $("#crmCard .btn").html("Go to GitHub repository<br/>(Opens in new window)");
+  //Quiz card
   let quizCardTitle = $("#quizCard .card-title").text("Quiz site");
   let quizCardText = $("#quizCard .card-text").text("A school project where the user takes a quiz, mainly used Javascript and pure CSS.");
   let quizCardBtn = $("#quizCard .btn").html("Go to GitHub repository<br/>(Opens in new window)");
+  //Runescape Card
   let osrsCardTitle = $("#osrsCard .card-title").text("Old school RuneScape calculator");
   let osrsCardText = $("#osrsCard .card-text").text("My future side-project for a game I really enjoy playing. Currently not functioning.");
   let osrsCardBtn = $("#osrsCard .btn ").html("Go to GitHub repository<br/>(Opens in new window)");

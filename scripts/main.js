@@ -2,9 +2,11 @@ $(function() {
   localStorage.getItem("language");
   if (localStorage.getItem("language") == "English") {
     console.log("Language loaded: English");
+    english();
   }
   else if (localStorage.getItem("language") == "Swedish") {
     console.log("Language loaded: Swedish");
+    swedish();
   }
   /*Variables*/
   let portfolioDiv = $("#portfolio");
@@ -35,9 +37,21 @@ $(function() {
   englishBtn.on("click", function(event) {
     console.log("Language loaded: English");
     localStorage.setItem("language", "English");
+    english();
   });
   swedishBtn.on("click", function(event) {
     console.log("Language choosen: Swedish");
     localStorage.setItem("language", "Swedish");
+    swedish();
   });
 });
+
+function swedish(){
+  let alexBio = $("#alexBio").text("Mitt namn är Alexander Wilson, jag är tjugotre år och bor i Stockholm.");
+  console.log($("#alexBio").text());
+}
+
+function english(){
+  let alexBio =$("#alexBio").text("My name is Alexander Wilson, I am twenty-three years old and live in Stockholm.");
+  console.log($("#alexBio").text());
+}

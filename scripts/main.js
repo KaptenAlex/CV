@@ -2,6 +2,8 @@ $(function() {
   let portfolioDiv = $("#portfolio");
   let aboutMeDiv = $("#about_me");
   let resumeDiv = $("#resume");
+  let englishBtn = $("#english");
+  let swedishBtn = $("#swedish");
   //Function to switch active state on navbar links.
   $(".nav-link").click(function() {
     let currentObject = $(this);

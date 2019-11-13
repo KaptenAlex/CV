@@ -1,4 +1,7 @@
 $(function() {
+  localStorage.getItem("language");
+  console.log("Language loaded: " + localStorage.getItem("language"));
+  /*Variables*/
   let portfolioDiv = $("#portfolio");
   let aboutMeDiv = $("#about_me");
   let resumeDiv = $("#resume");
@@ -25,5 +28,13 @@ $(function() {
       aboutMeDiv.attr("style", "display:none");
       resumeDiv.attr("style", "display:none");
     }
+  });
+  englishBtn.on("click", function(event){
+    console.log("Language loaded: English");
+    localStorage.setItem("language", "English");
+  });
+  swedishBtn.on("click", function(event){
+    console.log("Language choosen: Swedish");
+    localStorage.setItem("language", "Swedish");
   });
 });

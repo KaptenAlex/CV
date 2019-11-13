@@ -20,7 +20,7 @@ $(function(){
   }
   /*
   Listens for when the user chooses language and
-  prints out choosen answer in console and
+  prints out choosen language in console and
   set the language choosen in localStorage.
   */
   $("#english").on("click", function(event) {

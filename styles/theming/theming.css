@@ -9655,6 +9655,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/*
+Theming for bootstrap classes to modify looks
+and adjust them to meet WCAG demands.
+ */
 h1, h2, h3, h4, h5, h6, p, li, a {
   line-height: 1.5;
   font-size: 1.5em;

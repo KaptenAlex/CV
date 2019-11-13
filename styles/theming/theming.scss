@@ -1,7 +1,9 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-//Custom bootstrap theming.
+@import "../../node_modules/bootstrap/scss/bootstrap";
+/*
+Theming for bootstrap classes to modify looks
+and adjust them to meet WCAG demands.
+ */
 
-//Text spacing WCAG
 h1,h2,h3,h4,h5,h6,p,li,a,{
   line-height: 1.5;
   font-size: 1.5em;

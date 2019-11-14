@@ -7,7 +7,7 @@ $(function() {
   let portfolioDiv = $("#portfolio");
   let aboutMeDiv = $("#about_me");
   let resumeDiv = $("#resume");
-  $(".nav-link").click(function() {
+  $(".nav-link").on("click", function() {
     let currentObject = $(this);
     $(".nav-link").removeClass("active");
     currentObject.addClass("active");

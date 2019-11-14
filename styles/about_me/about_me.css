@@ -13,6 +13,7 @@
 .secretText {
   font-style: italic;
   display: none;
+  font-size: inherit;
 }
 
 .github {
